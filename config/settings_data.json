@@ -354,8 +354,21 @@
       "horizontal-menu": {
         "type": "horizontal-menu",
         "blocks": {
+          "dropdown_RxK7MX": {
+            "type": "dropdown",
+            "settings": {
+              "title": "SHOP",
+              "url": "",
+              "menu": "shop",
+              "open_link": false,
+              "label": "",
+              "icon_font": "",
+              "icon_width_image": 50
+            }
+          },
           "menu_item_Mrt9ic": {
             "type": "menu_item",
+            "disabled": true,
             "settings": {
               "title": "SHOP",
               "url": "shopify://collections/all-products",
@@ -369,21 +382,12 @@
           },
           "link_7Ha3JT": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "title": "",
               "url": "",
               "open_link": false,
               "menu": "shop",
-              "col": "4"
-            }
-          },
-          "collection_grtCHq": {
-            "type": "collection",
-            "settings": {
-              "collection": "matcha",
-              "image": "shopify://shop_images/Menu.png",
-              "show_count": false,
-              "open_link": false,
               "col": "4"
             }
           },
@@ -433,9 +437,9 @@
           }
         },
         "block_order": [
+          "dropdown_RxK7MX",
           "menu_item_Mrt9ic",
           "link_7Ha3JT",
-          "collection_grtCHq",
           "1847da8e-da3e-4aff-985f-ae488e809691",
           "single_link_4P9RPn",
           "single_link_CHdJFV",
