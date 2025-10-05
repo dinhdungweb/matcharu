@@ -180,11 +180,7 @@
     
     .article-header-image-column {
         height: 300px;
-        border-radius: 8px 8px 0 0;
-    }
-    
-    .article-header-content-column {
-        border-radius: 0 0 8px 8px;
+        
     }
 }
 
