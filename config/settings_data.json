@@ -87,6 +87,7 @@
     "gift_wrap": "gift-wrap",
     "cart_shipping_rates_calculator": true,
     "show_in_cart": true,
+    "option_show_minicart": "inside",
     "footer_layout": "footer-1",
     "show_quick_view": false,
     "show_add_to_cart": true,
