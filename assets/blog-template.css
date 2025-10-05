@@ -219,6 +219,9 @@
     aspect-ratio: 2 / 1;
     object-fit: cover;
 }
+#blog-posts-header {
+    padding-top: 0;
+}
 
 @media (min-width: 768px) {
     .blog-content-wap {
