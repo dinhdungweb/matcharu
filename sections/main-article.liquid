@@ -12,89 +12,97 @@
 -%}
 <script src="{{ 'blog.js' | asset_url }}" defer="defer"></script>
 
-<section id="blog-posts-header" class="article-header-modern">
-  <div class="article-header-overlay">
-    {%- if article.image -%}
-      <div class="article-template__hero-container" {{ block.shopify_attributes }}>
-        <div
-          class="article-template__hero-{{ block.settings.image_height }} media article-featured-image"
-          itemprop="image"
-          {% if block.settings.image_height == 'adapt' and article.image %}
-            style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
-          {% endif %}
-        >
-          <img
-            srcset="
-              {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
-              {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
-              {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
-              {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
-              {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
-              {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
-              {{ article.image | image_url }} {{ article.image.width }}w
-            "
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-            src="{{ article.image | image_url: width: 1100 }}"
-            loading="lazy"
-            width="{{ article.image.width }}"
-            height="{{ article.image.height }}"
-            alt="{{ article.image.alt | escape }}"
-            class="article-hero-image"
-          >
+<section id="blog-posts-header" class="article-header-split">
+  <div class="container">
+    <div class="article-split-layout">
+      <div class="article-split-image">
+        {%- if article.image -%}
+          <div class="article-template__hero-container" {{ block.shopify_attributes }}>
+            <div
+              class="article-template__hero-{{ block.settings.image_height }} media article-featured-image"
+              itemprop="image"
+              {% if block.settings.image_height == 'adapt' and article.image %}
+                style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
+              {% endif %}
+            >
+              <img
+                srcset="
+                  {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                  {{ article.image | image_url }} {{ article.image.width }}w
+                "
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                src="{{ article.image | image_url: width: 1100 }}"
+                loading="lazy"
+                width="{{ article.image.width }}"
+                height="{{ article.image.height }}"
+                alt="{{ article.image.alt | escape }}"
+                class="article-hero-image"
+              >
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+      
+      <div class="article-split-content">
+        <div class="article-template__back fw-500 fs-12 uppercase mb-10">
+          <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
+            {{ blog.title }}
+          </a>
         </div>
-      </div>
-    {%- endif -%}
-    
-    <div class="article-header-content">
-      <div class="article-template__back fw-500 fs-12 uppercase mb-10">
-        <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
-          {{ blog.title }}
-        </a>
-      </div>
-      <h1 class="article-template__title mb-15" itemprop="headline">{{ article.title | escape }}</h1>
-      <div class="article-metas">
-        {%- if show_author -%}
-          <span
-            class="article-author mt-5 mr-15 fw-500 fs-12 uppercase"
-            itemprop="author"
-            itemscope
-            itemtype="http://schema.org/Person"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M6 21V19C6 17.9391 6.42143 16.9217 7.17157 16.1716C7.92172 15.4214 8.93913 15 10 15H14C15.0609 15 16.0783 15.4214 16.8284 16.1716C17.5786 16.9217 18 17.9391 18 19V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <span itemprop="name">{{ article.author }}</span>
-          </span>
-        {%- endif -%}
-        {%- if show_date -%}
-          <span
-            class="article-date mt-5 mr-15 fw-500 fs-12 uppercase"
-            itemprop="dateCreated pubdate datePublished"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M16 2V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M8 2V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M3 10H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            {{- article.published_at | date: '%b %d %Y' -}}
-          </span>
-        {%- endif -%}
-        {%- if blog.comments_enabled? -%}
-          <span class="article-comments mt-5 mr-15 fw-500 fs-12 uppercase">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3098 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            {{- 'blogs.article.comments' | t: count: article.comments_count -}}
-          </span>
-        {%- endif -%}
+        <h1 class="article-template__title mb-15" itemprop="headline">{{ article.title | escape }}</h1>
+        <div class="article-metas">
+          {%- if show_author -%}
+            <span
+              class="article-author mt-5 mr-15 fw-500 fs-12 uppercase"
+              itemprop="author"
+              itemscope
+              itemtype="http://schema.org/Person"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 21V19C6 17.9391 6.42143 16.9217 7.17157 16.1716C7.92172 15.4214 8.93913 15 10 15H14C15.0609 15 16.0783 15.4214 16.8284 16.1716C17.5786 16.9217 18 17.9391 18 19V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span itemprop="name">{{ article.author }}</span>
+            </span>
+          {%- endif -%}
+          {%- if show_date -%}
+            <span
+              class="article-date mt-5 mr-15 fw-500 fs-12 uppercase"
+              itemprop="dateCreated pubdate datePublished"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 2V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 2V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 10H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              {{- article.published_at | date: '%b %d %Y' -}}
+            </span>
+          {%- endif -%}
+          {%- if blog.comments_enabled? -%}
+            <span class="article-comments mt-5 mr-15 fw-500 fs-12 uppercase">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3098 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              {{- 'blogs.article.comments' | t: count: article.comments_count -}}
+            </span>
+          {%- endif -%}
+        </div>
+        
+        <div class="article-template__content rte modern-article-content" itemprop="articleBody">
+          {{ article.content }}
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="pageContent">
+<section id="pageContent" style="display: none;">
   <div class="{{ st.container }} section-full clearfix">
     <div class="row">
       <div class="col-blog-contents">
