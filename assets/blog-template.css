@@ -220,7 +220,7 @@
     object-fit: cover;
 }
 #blog-posts-header {
-    padding-top: 0;
+    padding-top: 0!important;
 }
 
 @media (min-width: 768px) {
