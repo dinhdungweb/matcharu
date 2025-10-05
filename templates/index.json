@@ -853,7 +853,7 @@
       "type": "blog-posts",
       "name": "t:sections.blog-posts.name",
       "settings": {
-        "heading_logo_svg": "EXPLORE OUR TASTY RECIPES",
+        "heading_logo_svg": "RECIPES",
         "heading": "Explore our Tasty Recipes",
         "description": "",
         "text_align": "text-center",
