@@ -132,6 +132,13 @@
         "scrolling_text_qi98Cw": {
           "type": "scrolling_text",
           "settings": {
+            "content": "<p>FULFILL ALL YOUR MATCHA DESIRES/NEEDS<br/></p>",
+            "text_link": ""
+          }
+        },
+        "scrolling_text_RbhhPU": {
+          "type": "scrolling_text",
+          "settings": {
             "content": "<p>JOIN OUR MEMBERSHIP TO ENJOY 10% OFF YOUR FIRST ORDER!</p>",
             "text_link": ""
           }
@@ -139,7 +146,7 @@
         "scrolling_text_VUVena": {
           "type": "scrolling_text",
           "settings": {
-            "content": "<p>JOIN OUR MEMBERSHIP TO ENJOY 10% OFF YOUR FIRST ORDER!</p>",
+            "content": "<p>FULFILL ALL YOUR MATCHA DESIRES/NEEDS</p>",
             "text_link": ""
           }
         },
@@ -154,6 +161,7 @@
       "block_order": [
         "scrolling_text_XTXMmR",
         "scrolling_text_qi98Cw",
+        "scrolling_text_RbhhPU",
         "scrolling_text_VUVena",
         "scrolling_text_wNW9jb"
       ],
