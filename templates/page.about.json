@@ -638,6 +638,7 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
+            "image": "shopify://shop_images/BULKBAG500g.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
@@ -653,6 +654,7 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
+            "image": "shopify://shop_images/matcha-latte-o-dau-ngon-7.webp",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
@@ -668,6 +670,7 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
+            "image": "shopify://shop_images/Matcha-Iced-Latte_ig.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
