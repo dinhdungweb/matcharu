@@ -88,6 +88,16 @@
     "cart_shipping_rates_calculator": true,
     "show_in_cart": true,
     "option_show_minicart": "inside",
+    "recommendation_product_type": "selected",
+    "select_product_recommendation": [
+      "japanese-authentic-matcha-whisk-chasen-shin真",
+      "matcha-whisk-chasen-100-prongs",
+      "matcharu-japanese-ceremonial-grade-matcha-powder-100-spring-premium-first-harvest-1000g-2-2lbs",
+      "matcharu-ceremonial-matcha-100-spring-harvested-tea-leaves-50g-1-76-oz",
+      "matcharu-japanese-ceremonial-grade-matcha-powder-100-spring-premium-first-harvest-50g-1-76oz",
+      "matcharu-japanese-ceremonial-grade-matcha-powder-100-spring-premium-first-harvest-500g-1-1lb",
+      "matcharu-japanese-hojicha-powder-authentic-roasted-flavor-50g-1-76oz"
+    ],
     "footer_layout": "footer-1",
     "show_quick_view": false,
     "show_add_to_cart": true,
