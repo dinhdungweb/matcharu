@@ -136,6 +136,13 @@
             "text_link": ""
           }
         },
+        "scrolling_text_UX3ndh": {
+          "type": "scrolling_text",
+          "settings": {
+            "content": "<p>BECOME A MEMBER FOR MORE MATCHA INSIGHTS/INFO</p>",
+            "text_link": ""
+          }
+        },
         "scrolling_text_RbhhPU": {
           "type": "scrolling_text",
           "settings": {
@@ -168,6 +175,7 @@
       "block_order": [
         "scrolling_text_XTXMmR",
         "scrolling_text_qi98Cw",
+        "scrolling_text_UX3ndh",
         "scrolling_text_RbhhPU",
         "scrolling_text_49GCwL",
         "scrolling_text_VUVena",
