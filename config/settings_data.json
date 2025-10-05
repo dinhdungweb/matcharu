@@ -301,7 +301,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "<p>Welcome to our store</p>",
+              "text": "<p>Your one-stop shop for everything Matcha.<br/><br/></p>",
               "countdown_deadline": ""
             }
           },
