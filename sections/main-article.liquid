@@ -94,17 +94,10 @@
           {%- endif -%}
         </div>
         {%- if show_tag -%}
-          <div class="blog-tag d-flex flex-wrap align-items-center">
-            <span class="heading-color fw-500 mb-10 mr-15">{{ 'blogs.article.tags' | t }}:</span>
-            <ul class="blog-meta-tag p-0 list-none my-0 d-flex flex-wrap flex-1">
-              {% for tag in article.tags limit: 8 %}
-                {% if current_tags contains tag %}
-                  <li class="mr-10 mb-10 fs-small">{{ tag }}</li>
-                {% else %}
-                  <li class="mr-10 mb-10 fs-small">{{ tag | link_to_tag: tag }}</li>
-                {% endif %}
-              {% endfor %}
-            </ul>
+          <div class="article-tags mb-10">
+            {% for tag in article.tags %}
+              <a class="blog-posts-tag fs-12 fw-500" rel="tag" href="{{ blog.url }}/tagged/{{ tag | handleize }}">{{ tag }}</a>
+            {% endfor %}
           </div>
         {%- endif -%}
       </div>
