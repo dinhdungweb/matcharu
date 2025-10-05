@@ -94,7 +94,7 @@
           {%- endif -%}
         </div>
         {%- if show_tag -%}
-          <div class="article-tags mb-10">
+          <div class="article-tags mt-20">
             {% for tag in article.tags %}
               <a class="blog-posts-tag fs-12 fw-500" rel="tag" href="{{ blog.url }}/tagged/{{ tag | handleize }}">{{ tag }}</a>
             {% endfor %}
