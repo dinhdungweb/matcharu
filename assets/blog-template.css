@@ -194,10 +194,6 @@
 }
 
 .modern-article .blog-content-wap {
-    background-color: var(--color-white);
-    border-radius: 8px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
-    margin-top: -2rem;
     position: relative;
     z-index: 3;
     padding: 3rem;
