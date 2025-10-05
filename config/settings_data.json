@@ -377,6 +377,16 @@
               "col": "4"
             }
           },
+          "collection_grtCHq": {
+            "type": "collection",
+            "settings": {
+              "collection": "matcha",
+              "image": "shopify://shop_images/Menu.png",
+              "show_count": false,
+              "open_link": false,
+              "col": "4"
+            }
+          },
           "1847da8e-da3e-4aff-985f-ae488e809691": {
             "type": "single_link",
             "settings": {
@@ -425,6 +435,7 @@
         "block_order": [
           "menu_item_Mrt9ic",
           "link_7Ha3JT",
+          "collection_grtCHq",
           "1847da8e-da3e-4aff-985f-ae488e809691",
           "single_link_4P9RPn",
           "single_link_CHdJFV",
