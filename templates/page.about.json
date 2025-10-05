@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -10,7 +19,7 @@
         "8bf1d9d6-cada-478b-9ba4-2d2e44855632": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Welcome to umino<\/p>",
+            "desc": "<p>Welcome to Matcharu</p>",
             "desc_fs": 12,
             "desc_fw": "600",
             "content_width": 100,
@@ -44,7 +53,7 @@
         "template--21763387359529__d5c751ad-2b85-4c9d-b68f-d9a66d5e9199-desc-1": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Over 20 years of experience, we have meticulously curated collections that transcend fleeting trends, embodying a timeless elegance that resonates with our discerning clientele.<\/p>",
+            "desc": "<p>Over 20 years of experience, we have meticulously curated collections that transcend fleeting trends, embodying a timeless elegance that resonates with our discerning clientele.</p>",
             "desc_fs": 16,
             "desc_fw": "default",
             "content_width": 60,
@@ -78,8 +87,7 @@
           "settings": {
             "banner_width": "12",
             "banner_type": "image",
-            "image": "shopify:\/\/shop_images\/about-us.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "",
@@ -134,7 +142,7 @@
             "ending_number": "56",
             "unit_number": "M",
             "heading": "Products for Sale",
-            "description": "<p>That's why we strive to offer a diverse range of products that cater to all styles.<\/p>"
+            "description": "<p>That's why we strive to offer a diverse range of products that cater to all styles.</p>"
           }
         },
         "template--21763387359529__d2b8393e-8792-40a7-a4c8-5c192feb9e83-counter-2": {
@@ -144,7 +152,7 @@
             "ending_number": "9.6",
             "unit_number": "M",
             "heading": "Happy Customer",
-            "description": "<p>We pride ourselves on creating great products and experiences with our valued customers.<\/p>"
+            "description": "<p>We pride ourselves on creating great products and experiences with our valued customers.</p>"
           }
         },
         "template--21763387359529__d2b8393e-8792-40a7-a4c8-5c192feb9e83-counter-3": {
@@ -154,7 +162,7 @@
             "ending_number": "13",
             "unit_number": "M",
             "heading": "Partner Brand",
-            "description": "<p>Partner with brands that share our values, striving to protect our environment.<\/p>"
+            "description": "<p>Partner with brands that share our values, striving to protect our environment.</p>"
           }
         }
       },
@@ -169,9 +177,9 @@
         "description": "",
         "text_alignment": "text-center",
         "container": "container",
+        "color_scheme": "",
         "custom_column": 3,
         "column_gap": 30,
-        "color_scheme": "",
         "icon_width": 42,
         "icon_spacing": 20,
         "img_position": "position-top",
@@ -205,7 +213,7 @@
         "4ce13d24-4dc5-4b90-bd4d-cc9b130578c7": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Why Choose Us<\/p>",
+            "desc": "<p>Why Choose Us</p>",
             "desc_fs": 12,
             "desc_fw": "600",
             "content_width": 100,
@@ -228,7 +236,7 @@
         "template--16584037925111__de27bbae-8b57-4758-bfe7-5ac9b1179505-1665713233cd3512b4-2": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium  lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.<\/p>",
+            "desc": "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium  lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.</p>",
             "desc_fs": 16,
             "desc_fw": "default",
             "content_width": 60,
@@ -261,13 +269,12 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify:\/\/shop_images\/banner-about.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "Unique for Women’s",
             "title": "",
-            "content": "<p>Our collections dress a unique and feminine woman. The pieces showcase a timeless style while keeping in mind fashion aesthetics and trends.<\/p>",
+            "content": "<p>Our collections dress a unique and feminine woman. The pieces showcase a timeless style while keeping in mind fashion aesthetics and trends.</p>",
             "btn_content": "",
             "button_type": "link"
           }
@@ -277,13 +284,12 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify:\/\/shop_images\/banner-about-2.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "Elegant for Men’s",
             "title": "",
-            "content": "<p>From traditional tailoring to the most informal pieces. Our Umino Man collections feature the latest trends with the maximum comfort.<\/p>",
+            "content": "<p>From traditional tailoring to the most informal pieces. Our Umino Man collections feature the latest trends with the maximum comfort.</p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -293,13 +299,12 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify:\/\/shop_images\/banner-about-3.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "Freedom for Everyone",
             "title": "",
-            "content": "<p>The designs have been created adopting the current trends, while leaving room for personal expression among young people.<\/p>",
+            "content": "<p>The designs have been created adopting the current trends, while leaving room for personal expression among young people.</p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -347,7 +352,7 @@
         "a1a3c57a-7dfe-4c13-bb19-d22d3166f94c": {
           "type": "desc",
           "settings": {
-            "desc": "<p>“ Umino will become an example of the responsible business model by doing business with kindness, profit and bringing practical and long-term values to customers, employees,  partners, the community for the environment and for shareholders ”<\/p>",
+            "desc": "<p>“ Umino will become an example of the responsible business model by doing business with kindness, profit and bringing practical and long-term values to customers, employees,  partners, the community for the environment and for shareholders ”</p>",
             "desc_fs": 20,
             "desc_fw": "default",
             "content_width": 60,
@@ -359,7 +364,7 @@
         "03a56868-5767-4f3d-bda1-2ea7942d2c90": {
           "type": "sub_heading",
           "settings": {
-            "sub_heading": "<p>Michael Anthony, CEO & Founder Umino<\/p>",
+            "sub_heading": "<p>Michael Anthony, CEO & Founder Umino</p>",
             "sub_fs": 14,
             "sub_fw": "default",
             "sub_tf": "unset",
@@ -388,7 +393,7 @@
         "7037bd9d-7ccb-4b05-b7b9-0a3b718156b1": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>OUR FACTORIES<\/p>",
+            "txt_content": "<p>OUR FACTORIES</p>",
             "txt_fs": 12,
             "txt_fw": "600",
             "txt_tf": "unset",
@@ -410,7 +415,7 @@
         "template--16584037925111__26c21a87-4e2f-4f70-a443-ad63d4341ac2-16655668072faff6b4-1": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>We spend months finding the best factories around the world—the same ones that produce your favorite designer labels. We visit them often and build strong personal relationships with the owners. Each factory is given a compliance audit to evaluate factors like fair wages.<\/p>",
+            "txt_content": "<p>We spend months finding the best factories around the world—the same ones that produce your favorite designer labels. We visit them often and build strong personal relationships with the owners. Each factory is given a compliance audit to evaluate factors like fair wages.</p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
@@ -441,15 +446,15 @@
         "color_scheme": "",
         "image_behavior": "none",
         "banner_type": "image",
-        "image": "shopify:\/\/shop_images\/about-1.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "link": "shopify:\/\/pages\/about-us",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "shopify://pages/about-us",
         "open_link": "_blank",
         "bn_design": "text_column",
         "text_align": "text-center",
         "text_horizontal_position": "left",
         "text_position": "center",
         "content_bg_color": "",
+        "background_gradient": "",
         "content_width": 100,
         "banner_height": "depend-image",
         "height_dk": 800,
@@ -474,7 +479,7 @@
         "53472d49-ff77-4644-b112-81f458396685": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>OUR QUALITY<\/p>",
+            "txt_content": "<p>OUR QUALITY</p>",
             "txt_fs": 12,
             "txt_fw": "600",
             "txt_tf": "unset",
@@ -496,7 +501,7 @@
         "template--16584037925111__c3ebe82c-835b-4f82-b2f6-b38befcf6797-16655668072faff6b4-1": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>At Umino, we’re not big on trends. We want you to wear our pieces for years, even decades, to come. That’s why we source the finest materials and factories for our timeless products— like our Grade-A cashmere sweaters, Italian shoes, and Peruvian Pima tees.<\/p>",
+            "txt_content": "<p>At Umino, we’re not big on trends. We want you to wear our pieces for years, even decades, to come. That’s why we source the finest materials and factories for our timeless products— like our Grade-A cashmere sweaters, Italian shoes, and Peruvian Pima tees.</p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
@@ -527,15 +532,15 @@
         "color_scheme": "",
         "image_behavior": "none",
         "banner_type": "image",
-        "image": "shopify:\/\/shop_images\/about-2.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "link": "shopify:\/\/pages\/about-us",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "shopify://pages/about-us",
         "open_link": "_blank",
         "bn_design": "text_column",
         "text_align": "text-center",
         "text_horizontal_position": "left",
         "text_position": "center",
         "content_bg_color": "",
+        "background_gradient": "",
         "content_width": 100,
         "banner_height": "depend-image",
         "height_dk": 800,
@@ -571,7 +576,7 @@
         "d65af5ce-a91b-417d-a804-fb9b15019b29": {
           "type": "desc",
           "settings": {
-            "desc": "<p>How We Work<\/p>",
+            "desc": "<p>How We Work</p>",
             "desc_fs": 12,
             "desc_fw": "600",
             "content_width": 100,
@@ -594,7 +599,7 @@
         "template--21763387359529__b22a2023-fa5f-4a8e-b136-09a7d17cf092-desc-1": {
           "type": "desc",
           "settings": {
-            "desc": "<p>At Umino, our work culture is deeply rooted in collaboration, innovation and passion. We believe that a positive and inclusive work environment is the foundation for creativity and success.<\/p>",
+            "desc": "<p>At Umino, our work culture is deeply rooted in collaboration, innovation and passion. We believe that a positive and inclusive work environment is the foundation for creativity and success.</p>",
             "desc_fs": 16,
             "desc_fw": "default",
             "content_width": 60,
@@ -627,13 +632,12 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify:\/\/shop_images\/about-3.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "Who We Are",
             "title": "",
-            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.<\/p>",
+            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.</p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -643,13 +647,12 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify:\/\/shop_images\/about-4.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "Our Products",
             "title": "",
-            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.<\/p>",
+            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.</p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -659,13 +662,12 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify:\/\/shop_images\/about-5.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
             "subtext": "Our Careers",
             "title": "",
-            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.<\/p>",
+            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.</p>",
             "btn_content": "",
             "button_type": "primary"
           }
