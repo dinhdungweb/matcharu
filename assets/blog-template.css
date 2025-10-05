@@ -65,52 +65,34 @@
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-/* Split Layout Article Header */
+/* Bố cục mới với hình ảnh bên trái và tiêu đề bên phải */
 .article-header-split {
-    position: relative;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+    overflow: visible;
 }
 
-.article-split-layout {
+.article-header-container {
     display: flex;
+    flex-direction: row;
+    align-items: stretch;
     min-height: 500px;
 }
 
-.article-split-image {
+.article-header-image-column {
     flex: 1;
     position: relative;
     overflow: hidden;
+    border-radius: 8px 0 0 8px;
 }
 
-.article-split-content {
+.article-header-content-column {
     flex: 1;
-    padding: 3rem;
-    background-color: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.article-split-content .article-template__title {
-    color: var(--heading-color);
-    font-size: clamp(2.2rem, 4vw, 4rem);
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-}
-
-.article-split-content .article-metas {
-    margin-bottom: 2rem;
-}
-
-.article-split-content .article-author,
-.article-split-content .article-date,
-.article-split-content .article-comments {
-    color: var(--grey-color);
-    margin-right: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0 8px 8px 0;
 }
 
 .article-header-overlay {
@@ -185,22 +167,29 @@
     transition: transform 0.5s ease;
 }
 
-.article-header-modern:hover .article-featured-image img,
-.article-split-image:hover img {
+.article-header-modern:hover .article-featured-image img {
     transform: scale(1.03);
 }
 
+/* Responsive styles for new split layout */
 @media (max-width: 768px) {
-    .article-split-layout {
+    .article-header-container {
         flex-direction: column;
     }
     
-    .article-split-image {
-        height: 300px;
+    .article-header-image-column,
+    .article-header-content-column {
+        flex: none;
+        width: 100%;
     }
     
-    .article-split-content {
-        padding: 2rem;
+    .article-header-image-column {
+        height: 300px;
+        border-radius: 8px 8px 0 0;
+    }
+    
+    .article-header-content-column {
+        border-radius: 0 0 8px 8px;
     }
 }
 
