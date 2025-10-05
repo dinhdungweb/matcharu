@@ -191,11 +191,6 @@
     }
 }
 
-.modern-article .blog-content-wap {
-    position: relative;
-    z-index: 3;
-    padding: 3rem;
-}
 
 .blog-sharing .social-sharing li:last-child {
     margin-right: 0;
