@@ -406,7 +406,7 @@
             "type": "single_link",
             "settings": {
               "title": "ABOUT",
-              "url": "shopify://collections/tools-gift",
+              "url": "shopify://pages/about",
               "open_link": false,
               "label": "",
               "icon_font": "",
