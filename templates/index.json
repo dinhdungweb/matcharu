@@ -160,14 +160,7 @@
         "scrolling_text_VUVena": {
           "type": "scrolling_text",
           "settings": {
-            "content": "<p>FULFILL ALL YOUR MATCHA DESIRES/NEEDS</p>",
-            "text_link": ""
-          }
-        },
-        "scrolling_text_wNW9jb": {
-          "type": "scrolling_text",
-          "settings": {
-            "content": "<p>BECOME A MEMBER FOR MORE MATCHA INSIGHTS/INFO<br/><br/></p>",
+            "content": "<p>BECOME A MEMBER FOR MORE MATCHA INSIGHTS/INFO</p>",
             "text_link": ""
           }
         }
@@ -178,8 +171,7 @@
         "scrolling_text_UX3ndh",
         "scrolling_text_RbhhPU",
         "scrolling_text_49GCwL",
-        "scrolling_text_VUVena",
-        "scrolling_text_wNW9jb"
+        "scrolling_text_VUVena"
       ],
       "name": "t:sections.scrolling-text.name",
       "settings": {
