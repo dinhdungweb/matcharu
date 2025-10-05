@@ -143,6 +143,13 @@
             "text_link": ""
           }
         },
+        "scrolling_text_49GCwL": {
+          "type": "scrolling_text",
+          "settings": {
+            "content": "<p>FULFILL ALL YOUR MATCHA DESIRES/NEEDS</p>",
+            "text_link": ""
+          }
+        },
         "scrolling_text_VUVena": {
           "type": "scrolling_text",
           "settings": {
@@ -153,7 +160,7 @@
         "scrolling_text_wNW9jb": {
           "type": "scrolling_text",
           "settings": {
-            "content": "<p></p><p>BECOME A MEMBER FOR MORE MATCHA INSIGHTS/INFO<br/><br/></p>",
+            "content": "<p>BECOME A MEMBER FOR MORE MATCHA INSIGHTS/INFO<br/><br/></p>",
             "text_link": ""
           }
         }
@@ -162,6 +169,7 @@
         "scrolling_text_XTXMmR",
         "scrolling_text_qi98Cw",
         "scrolling_text_RbhhPU",
+        "scrolling_text_49GCwL",
         "scrolling_text_VUVena",
         "scrolling_text_wNW9jb"
       ],
