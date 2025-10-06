@@ -485,7 +485,7 @@
           "settings": {
             "btn_content": "Contact us",
             "button_type": "primary",
-            "button_link": "shopify://collections/fresh-vegetables",
+            "button_link": "shopify://pages/contact",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 14
@@ -494,9 +494,9 @@
         "8a151342-f604-4635-a3a4-ccd18e6695bb": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Shop All",
+            "btn_content": "Shop now",
             "button_type": "secondary",
-            "button_link": "shopify://collections/fruit-drink",
+            "button_link": "shopify://collections/bulk-whosesale",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 50
