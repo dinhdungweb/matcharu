@@ -108,7 +108,7 @@
         "layout": "grid",
         "max_articles": 12,
         "items_per_row": 4,
-        "column_gap": 10,
+        "column_gap": 20,
         "pagination": "default",
         "sidebar_position": "no_sidebar",
         "aspect_ratio": "3/4",
