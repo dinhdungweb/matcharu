@@ -87,7 +87,7 @@
               View All
             </a>
 
-            {% assign tags_sorted = blog.all_tags | sort_natural %}
+            {% assign tags_sorted = blog.all_tags | sort_natural | reverse %}
             {% for tag in tags_sorted %}
               {% assign is_active = false %}
               {% if current_tags and current_tags contains tag %}
@@ -101,6 +101,7 @@
             {% endfor %}
           </div>
         {% endif %}
+
 
 
 
