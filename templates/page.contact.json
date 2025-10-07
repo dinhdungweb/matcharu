@@ -9,6 +9,24 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "page-contact",
+      "settings": {
+        "container": "container",
+        "iframe": "",
+        "show_map": true,
+        "contact_form_heading": "Subscribe to get useful information and exclusive discounts delivered directly to you.",
+        "contact_form_sub_heading": "",
+        "contact_info_heading": "CONTACT US",
+        "contact_info_sub_heading": "<p>Feel Free to Contact Us</p><p>Email:  <strong>matcharuus@gmail.com<br/></strong><br/></p>",
+        "store_1": "Matcharu - United States",
+        "contact_info_content": "<p>Harrison, NY 10528</p><p>Opening Hours: Everyday 9:00 am - 6:00 pm</p>",
+        "store_2": "",
+        "contact_info_content_2": "",
+        "store_3": "",
+        "contact_info_content_3": ""
+      }
+    },
     "banner_with_text_XwQ4Dm": {
       "type": "banner-with-text",
       "blocks": {
@@ -44,24 +62,12 @@
             "b_mt": 0,
             "b_mb": 15
           }
-        },
-        "buttons_CnRrWB": {
-          "type": "buttons",
-          "settings": {
-            "btn_content": "Contact Us",
-            "button_type": "primary",
-            "button_link": "",
-            "button_target": false,
-            "b_mt": 0,
-            "b_mb": 15
-          }
         }
       },
       "block_order": [
         "heading_geBERV",
         "text_JBRaNU",
-        "buttons_AHE98H",
-        "buttons_CnRrWB"
+        "buttons_AHE98H"
       ],
       "name": "t:sections.banner-with-text.name",
       "settings": {
@@ -97,28 +103,10 @@
         "padding_bottom": 0,
         "reset_spacing": false
       }
-    },
-    "main": {
-      "type": "page-contact",
-      "settings": {
-        "container": "container",
-        "iframe": "",
-        "show_map": true,
-        "contact_form_heading": "Leave your details, and we'll be in touch soon!",
-        "contact_form_sub_heading": "",
-        "contact_info_heading": "CONTACT US",
-        "contact_info_sub_heading": "<p>Feel Free to Contact Us</p><p>Email:  <strong>matcharuus@gmail.com<br/></strong><br/></p>",
-        "store_1": "Matcharu - United States",
-        "contact_info_content": "<p>Harrison, NY 10528</p><p>Opening Hours: Everyday 9:00 am - 6:00 pm</p>",
-        "store_2": "",
-        "contact_info_content_2": "",
-        "store_3": "",
-        "contact_info_content_3": ""
-      }
     }
   },
   "order": [
-    "banner_with_text_XwQ4Dm",
-    "main"
+    "main",
+    "banner_with_text_XwQ4Dm"
   ]
 }
