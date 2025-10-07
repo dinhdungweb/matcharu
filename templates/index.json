@@ -880,6 +880,15 @@
         "padding_bottom": 0,
         "reset_spacing": false
       }
+    },
+    "contact_form_yqWcMH": {
+      "type": "contact-form",
+      "name": "Contact Form",
+      "settings": {
+        "container": "container",
+        "contact_form_heading": "Get in Touch",
+        "contact_form_sub_heading": "<p>We'd love to hear from you about our entire service. Your comments and suggestions will be highly appreciated. Please complete the form below.</p>"
+      }
     }
   },
   "order": [
@@ -894,6 +903,7 @@
     "ef37a47e-d9db-4855-ac05-e04279ad1ca7",
     "757a514d-e65e-46da-92da-c981a603af3b",
     "50d25b8c-8e76-40ff-9947-d9410583e0fc",
-    "blog_posts_YFDnUU"
+    "blog_posts_YFDnUU",
+    "contact_form_yqWcMH"
   ]
 }
