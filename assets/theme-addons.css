@@ -63,6 +63,7 @@ a.blog-tag.is-active {
 }
 .contact-banner-image {
     border-radius: var(--product-images-style-radius);
+    overflow: hidden;
 }
 @media (min-width: 992px) {
   .blog-posts-tags-bar {
