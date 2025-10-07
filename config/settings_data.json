@@ -428,20 +428,11 @@
             "type": "single_link",
             "settings": {
               "title": "BULK/WHOLESALE",
-              "url": "shopify://collections/bulk-whosesale",
+              "url": "shopify://collections/bulk-wholesale-discounted-large-orders-for-businesses",
               "open_link": true,
               "label": "label1",
               "icon_font": "",
               "icon_width_image": 50
-            }
-          },
-          "collection_nyH4ge": {
-            "type": "collection",
-            "settings": {
-              "collection": "",
-              "show_count": false,
-              "open_link": false,
-              "col": "4"
             }
           }
         },
@@ -452,8 +443,7 @@
           "1847da8e-da3e-4aff-985f-ae488e809691",
           "single_link_4P9RPn",
           "single_link_CHdJFV",
-          "single_link_yh3fDr",
-          "collection_nyH4ge"
+          "single_link_yh3fDr"
         ],
         "settings": {
           "m_animation": "up_to_down",
