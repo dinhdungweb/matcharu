@@ -497,7 +497,7 @@
             "btn_content": "Shop now",
             "button_type": "secondary",
             "button_link": "shopify://collections/bulk-whosesale",
-            "button_target": false,
+            "button_target": true,
             "b_mt": 0,
             "b_mb": 50
           }
