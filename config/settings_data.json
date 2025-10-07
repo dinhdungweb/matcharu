@@ -305,6 +305,13 @@
               "countdown_deadline": ""
             }
           },
+          "announcement_FGGd4A": {
+            "type": "announcement",
+            "settings": {
+              "text": "<p>Welcome to our store</p>",
+              "countdown_deadline": ""
+            }
+          },
           "726818b9-4176-4b69-aa09-c87a8e3b065b": {
             "type": "announcement",
             "disabled": true,
@@ -317,6 +324,7 @@
         "block_order": [
           "1c680512-e088-43cf-8fee-827076f99874",
           "announcement_EfPbdE",
+          "announcement_FGGd4A",
           "726818b9-4176-4b69-aa09-c87a8e3b065b"
         ],
         "settings": {

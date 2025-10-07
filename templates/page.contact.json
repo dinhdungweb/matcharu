@@ -1,1 +1,122 @@
-{"sections":{"main":{"type":"page-contact","settings":{"container":"container","iframe":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"100%\" height=\"500\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>","show_map":true,"contact_form_heading":"Get in Touch","contact_form_sub_heading":"<p>We'd love to hear from you about our entire service. Your comments and suggestions will be highly appreciated. Please complete the form below.<\/p>","contact_info_heading":"Here to Help","contact_info_sub_heading":"<p>Have a question? You may find an answer in our FAQs. But you can also contact us:<\/p>","store_1":"Matcharu - United States","contact_info_content":"<p>68 St, South New York\/NY 98944, United States. matcharu@gmail.comm<\/p><p>+222-1800-262<\/p><p>Opening Hours: Everyday 9:00 am - 6:00 pm<\/p>","store_2":"","contact_info_content_2":"","store_3":"Umino - French","contact_info_content_3":""}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner_with_text_XwQ4Dm": {
+      "type": "banner-with-text",
+      "blocks": {
+        "heading_geBERV": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQs",
+            "heading_fs": 40,
+            "heading_fw": "default",
+            "heading_tf": "unset",
+            "heading_mt": 0,
+            "heading_mb": 10
+          }
+        },
+        "text_JBRaNU": {
+          "type": "text",
+          "settings": {
+            "txt_content": "<p>Find quick answers to the most common questions about our products, orders, shipping, and bulk purchases. </p><p>If you can’t find what you’re looking for, feel free to contact us anytime.<br/><br/></p>",
+            "txt_fs": 16,
+            "txt_fw": "default",
+            "txt_tf": "unset",
+            "txt_mt": 24,
+            "txt_mb": 25
+          }
+        },
+        "buttons_AHE98H": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "FAQs",
+            "button_type": "primary",
+            "button_link": "",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        },
+        "buttons_CnRrWB": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "Contact Us",
+            "button_type": "secondary",
+            "button_link": "",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 15
+          }
+        }
+      },
+      "block_order": [
+        "heading_geBERV",
+        "text_JBRaNU",
+        "buttons_AHE98H",
+        "buttons_CnRrWB"
+      ],
+      "name": "t:sections.banner-with-text.name",
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "banner_type": "image",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "link": "",
+        "open_link": "_blank",
+        "bn_design": "text_column",
+        "text_align": "text-center",
+        "text_horizontal_position": "center",
+        "text_position": "center",
+        "content_bg_color": "",
+        "background_gradient": "",
+        "content_width": 100,
+        "banner_height": "depend-image",
+        "height_dk": 800,
+        "height_tb": 600,
+        "height_mb": 360,
+        "height_full": false,
+        "content_box": "content_in_container",
+        "bg_opacity": 100,
+        "text_bellow_mobile": false,
+        "img_position": "left",
+        "banner_width": "col-md-6",
+        "column_gap": 30,
+        "hover_effect": "zoom",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "reset_spacing": false
+      }
+    },
+    "main": {
+      "type": "page-contact",
+      "settings": {
+        "container": "container",
+        "iframe": "",
+        "show_map": true,
+        "contact_form_heading": "Get in Touch",
+        "contact_form_sub_heading": "<p>We'd love to hear from you about our entire service. Your comments and suggestions will be highly appreciated. Please complete the form below.</p>",
+        "contact_info_heading": "Here to Help",
+        "contact_info_sub_heading": "<p>Have a question? You may find an answer in our FAQs. But you can also contact us:</p>",
+        "store_1": "Matcharu - United States",
+        "contact_info_content": "<p>68 St, South New York/NY 98944, United States. matcharu@gmail.comm</p><p>+222-1800-262</p><p>Opening Hours: Everyday 9:00 am - 6:00 pm</p>",
+        "store_2": "",
+        "contact_info_content_2": "",
+        "store_3": "Umino - French",
+        "contact_info_content_3": ""
+      }
+    }
+  },
+  "order": [
+    "banner_with_text_XwQ4Dm",
+    "main"
+  ]
+}
