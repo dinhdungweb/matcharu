@@ -428,9 +428,9 @@
             "type": "single_link",
             "settings": {
               "title": "BULK/WHOLESALE",
-              "url": "shopify://collections/bulk-whosesale",
+              "url": "shopify://collections/bulk-wholesale-discounted-large-orders-for-businesses",
               "open_link": false,
-              "label": "",
+              "label": "label1",
               "icon_font": "",
               "icon_width_image": 50
             }
