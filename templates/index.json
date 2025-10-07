@@ -480,17 +480,6 @@
             "txt_mb": 40
           }
         },
-        "template--20879003844905__71c0977c-a54c-4240-aaf3-811f64745dc5-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "btn_content": "CONTACT US",
-            "button_type": "secondary",
-            "button_link": "shopify://pages/contact",
-            "button_target": false,
-            "b_mt": 0,
-            "b_mb": 14
-          }
-        },
         "8a151342-f604-4635-a3a4-ccd18e6695bb": {
           "type": "buttons",
           "settings": {
@@ -501,14 +490,25 @@
             "b_mt": 5,
             "b_mb": 50
           }
+        },
+        "template--20879003844905__71c0977c-a54c-4240-aaf3-811f64745dc5-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "btn_content": "CONTACT US",
+            "button_type": "secondary",
+            "button_link": "shopify://pages/contact",
+            "button_target": false,
+            "b_mt": 0,
+            "b_mb": 14
+          }
         }
       },
       "block_order": [
         "6b3693c1-3106-4579-8dac-f962f788b352",
         "5833753c-c01b-481f-b89e-f4b3b2260ad4",
         "template--20879003844905__71c0977c-a54c-4240-aaf3-811f64745dc5-text-1",
-        "template--20879003844905__71c0977c-a54c-4240-aaf3-811f64745dc5-buttons-1",
-        "8a151342-f604-4635-a3a4-ccd18e6695bb"
+        "8a151342-f604-4635-a3a4-ccd18e6695bb",
+        "template--20879003844905__71c0977c-a54c-4240-aaf3-811f64745dc5-buttons-1"
       ],
       "custom_css": [
         ".bls__banner-text--grid {border-radius: var(--base-border-radius); overflow: hidden; will-change: transform;}",
