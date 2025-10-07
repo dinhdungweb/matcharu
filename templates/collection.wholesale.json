@@ -168,7 +168,7 @@
         "2039056a-3cc3-4534-a522-d35bdfbaef6c"
       ],
       "settings": {
-        "container": "container-fluid",
+        "container": "container",
         "enable_list_view": false,
         "products_column": 4,
         "number_products_grid": 12,
@@ -196,7 +196,7 @@
       "type": "sub-collection",
       "settings": {
         "heading": "",
-        "description": "<p></p>",
+        "description": "",
         "text_alignment": "text-center",
         "container": "container",
         "color_scheme": "",
