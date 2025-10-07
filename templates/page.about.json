@@ -486,10 +486,10 @@
         "53472d49-ff77-4644-b112-81f458396685": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>OUR QUALITY</p>",
+            "txt_content": "<p>FOR BUSINESS USE<br/><br/></p>",
             "txt_fs": 12,
             "txt_fw": "600",
-            "txt_tf": "unset",
+            "txt_tf": "capitalize",
             "txt_mt": 1,
             "txt_mb": 5
           }
@@ -497,7 +497,7 @@
         "template--16584037925111__c3ebe82c-835b-4f82-b2f6-b38befcf6797-16655668072faff6b4-0": {
           "type": "heading",
           "settings": {
-            "title": "Timeless Products",
+            "title": "Value Bulk Size",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -508,7 +508,7 @@
         "template--16584037925111__c3ebe82c-835b-4f82-b2f6-b38befcf6797-16655668072faff6b4-1": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>At Umino, we’re not big on trends. We want you to wear our pieces for years, even decades, to come. That’s why we source the finest materials and factories for our timeless products— like our Grade-A cashmere sweaters, Italian shoes, and Peruvian Pima tees.</p>",
+            "txt_content": "<p>Our Bulk Economy Size offers the best value for businesses <br/></p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
@@ -519,9 +519,9 @@
         "template--16584037925111__c3ebe82c-835b-4f82-b2f6-b38befcf6797-16655668072faff6b4-2": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Learn More",
+            "btn_content": "Buy Now",
             "button_type": "primary",
-            "button_link": "",
+            "button_link": "shopify://products/1000g-2-2lbs-bulk-wholesale-savings-copy",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
@@ -539,7 +539,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "banner_type": "image",
-        "image": "shopify://shop_images/Menu.png",
+        "image": "shopify://shop_images/BULKBAG1000g_1_612c97b1-526d-4401-91d3-d6de2dac36ec.png",
+        "image_mobile": "shopify://shop_images/BULKBAG1000g_1_612c97b1-526d-4401-91d3-d6de2dac36ec.png",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "link": "shopify://pages/about-us",
         "open_link": "_blank",
