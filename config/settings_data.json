@@ -293,7 +293,7 @@
           "1c680512-e088-43cf-8fee-827076f99874": {
             "type": "announcement",
             "settings": {
-              "text": "<p>Sign up today to get 10% off your first order!</p>",
+              "text": "<p>Join our mailing list for special deals and expert insights on Matcha.<br/><br/></p>",
               "countdown_deadline": ""
             }
           },
