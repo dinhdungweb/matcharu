@@ -1,7 +1,23 @@
 <section class="section-contact-form py-50 py-md-80">
   <div class="{{ section.settings.container }}">
-    <div class="row">
-      <div class="col-12">
+    <div class="row contact-form-wrapper">
+      <div class="col-12 col-md-6 contact-banner-col">
+        <div class="contact-banner-image">
+          {% if section.settings.banner_image != blank %}
+            <img 
+              src="{{ section.settings.banner_image | img_url: 'master' }}" 
+              alt="{{ section.settings.contact_form_heading }}"
+              class="w-full h-full object-cover"
+              loading="lazy"
+            >
+          {% else %}
+            <div class="contact-banner-placeholder">
+              <div class="placeholder-text">{{ section.settings.contact_form_heading }}</div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-12 col-md-6 contact-form-col">
         <div class="bls__contact-header bls__contact-form">
           <div class="contact-header mb-25">
             <h3 class="m-0">
@@ -100,6 +116,20 @@
           "label": "Box"
         }
       ]
+    },
+    {
+      "type": "header",
+      "content": "Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner image",
+      "info": "Recommended size: 800x1000 pixels"
+    },
+    {
+      "type": "header",
+      "content": "Form Content"
     },
     {
       "type": "text",
