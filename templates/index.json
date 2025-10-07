@@ -483,8 +483,8 @@
         "template--20879003844905__71c0977c-a54c-4240-aaf3-811f64745dc5-buttons-1": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Contact us",
-            "button_type": "primary",
+            "btn_content": "CONTACT US",
+            "button_type": "secondary",
             "button_link": "shopify://pages/contact",
             "button_target": false,
             "b_mt": 0,
@@ -494,11 +494,11 @@
         "8a151342-f604-4635-a3a4-ccd18e6695bb": {
           "type": "buttons",
           "settings": {
-            "btn_content": "Shop now",
-            "button_type": "secondary",
-            "button_link": "shopify://collections/bulk-whosesale",
+            "btn_content": "SHOP",
+            "button_type": "primary",
+            "button_link": "shopify://collections/bulk-wholesale-discounted-large-orders-for-businesses",
             "button_target": true,
-            "b_mt": 0,
+            "b_mt": 5,
             "b_mb": 50
           }
         }
