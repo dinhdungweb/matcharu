@@ -187,6 +187,7 @@
       "name": "Contact Form",
       "settings": {
         "container": "container-fluid px-0",
+        "banner_image": "shopify://shop_images/1.png",
         "contact_form_heading": "Get in Touch",
         "contact_form_sub_heading": "<p>We'd love to hear from you about our entire service. Your comments and suggestions will be highly appreciated. Please complete the form below.</p>"
       }
