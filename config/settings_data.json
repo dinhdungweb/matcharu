@@ -399,11 +399,12 @@
               "col": "4"
             }
           },
-          "single_link_4P9RPn": {
-            "type": "single_link",
+          "dropdown_BazwTQ": {
+            "type": "dropdown",
             "settings": {
               "title": "ABOUT",
-              "url": "shopify://pages/about",
+              "url": "#",
+              "menu": "about",
               "open_link": false,
               "label": "",
               "icon_font": "",
@@ -448,7 +449,7 @@
           "dropdown_RxK7MX",
           "menu_item_Mrt9ic",
           "link_7Ha3JT",
-          "single_link_4P9RPn",
+          "dropdown_BazwTQ",
           "single_link_CHdJFV",
           "single_link_yh3fDr",
           "1847da8e-da3e-4aff-985f-ae488e809691"
