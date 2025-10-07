@@ -61,6 +61,9 @@ a.blog-tag.is-active {
     text-decoration-thickness: 2px;
     color: #0f5b3f;
 }
+.contact-banner-image {
+    border-radius: var(--product-images-style-radius);
+}
 @media (min-width: 992px) {
   .blog-posts-tags-bar {
     justify-content: center;
