@@ -239,8 +239,8 @@
         "template--16584037925111__de27bbae-8b57-4758-bfe7-5ac9b1179505-1665713233cd3512b4-2": {
           "type": "desc",
           "settings": {
-            "desc": "<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium  lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.</p>",
-            "desc_fs": 16,
+            "desc": "<p>We provide authentic Japanese Matcha and service that ensures your satisfaction — honest, attentive, and flexible in every transaction.<br/><br/></p>",
+            "desc_fs": 21,
             "desc_fw": "default",
             "content_width": 60,
             "desc_tf": "unset",
@@ -272,13 +272,14 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/Main_remake_5.png",
+            "image": "shopify://shop_images/Sample.png",
+            "image_mobile": "shopify://shop_images/Sample.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "Unique for Women’s",
+            "subtext": "Sample Pack /Refill Pack Available",
             "title": "",
-            "content": "<p>Our collections dress a unique and feminine woman. The pieces showcase a timeless style while keeping in mind fashion aesthetics and trends.</p>",
+            "content": "<p><br/>We offer small sample packs, allowing you to experience and choose the premium Matcha that’s perfect for you.<br/><br/></p>",
             "btn_content": "",
             "button_type": "link"
           }
@@ -288,13 +289,13 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/Main_remake_4.png",
+            "image": "shopify://shop_images/Generated_Image_October_08_2025_-_12_20AM_1.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "Elegant for Men’s",
+            "subtext": "Grown, Crafted, and Delivered by Us",
             "title": "",
-            "content": "<p>From traditional tailoring to the most informal pieces. Our Umino Man collections feature the latest trends with the maximum comfort.</p>",
+            "content": "<p>Owning our own Matcha farm allows us to offer the best prices and the deepest knowledge of Matcha.<br/><br/></p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -304,13 +305,13 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/Main_remake_6.png",
+            "image": "shopify://shop_images/Satoen_Matcha_0001.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "Freedom for Everyone",
+            "subtext": "Delivering the Best Matcha Experience for You",
             "title": "",
-            "content": "<p>The designs have been created adopting the current trends, while leaving room for personal expression among young people.</p>",
+            "content": "<p>We’re dedicated to bringing you the finest Matcha experience — from authentic flavor to thoughtful service.<br/><br/><br/></p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -399,7 +400,7 @@
         "7037bd9d-7ccb-4b05-b7b9-0a3b718156b1": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>FOR DAILY MATCHA LOVERS</p>",
+            "txt_content": "<p>THE BEST PRODUCT</p>",
             "txt_fs": 12,
             "txt_fw": "600",
             "txt_tf": "unset",
@@ -410,7 +411,7 @@
         "template--16584037925111__26c21a87-4e2f-4f70-a443-ad63d4341ac2-16655668072faff6b4-0": {
           "type": "heading",
           "settings": {
-            "title": "The Best Product",
+            "title": "FOR DAILY MATCHA LOVERS",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -486,7 +487,7 @@
         "53472d49-ff77-4644-b112-81f458396685": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>FOR BUSINESS USE<br/><br/></p>",
+            "txt_content": "<p>THE BEST PRODUCT</p>",
             "txt_fs": 12,
             "txt_fw": "600",
             "txt_tf": "capitalize",
@@ -497,7 +498,7 @@
         "template--16584037925111__c3ebe82c-835b-4f82-b2f6-b38befcf6797-16655668072faff6b4-0": {
           "type": "heading",
           "settings": {
-            "title": "Value Bulk Size",
+            "title": "VALUE BULK SIZE FOR BUSINESSES",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -508,7 +509,7 @@
         "template--16584037925111__c3ebe82c-835b-4f82-b2f6-b38befcf6797-16655668072faff6b4-1": {
           "type": "text",
           "settings": {
-            "txt_content": "<p>Our Bulk Economy Size offers the best value for businesses <br/></p>",
+            "txt_content": "<p>The 1000g Bulk Economy Size delivers exceptional value for cafés and business use.<br/><br/><br/></p>",
             "txt_fs": 16,
             "txt_fw": "default",
             "txt_tf": "unset",
