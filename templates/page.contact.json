@@ -49,7 +49,7 @@
           "type": "buttons",
           "settings": {
             "btn_content": "Contact Us",
-            "button_type": "secondary",
+            "button_type": "primary",
             "button_link": "",
             "button_target": false,
             "b_mt": 0,
@@ -66,9 +66,11 @@
       "name": "t:sections.banner-with-text.name",
       "settings": {
         "container": "container",
-        "color_scheme": "",
+        "color_scheme": "default-color-scheme",
         "image_behavior": "none",
         "banner_type": "image",
+        "image": "shopify://shop_images/Main_remake_3.png",
+        "image_mobile": "shopify://shop_images/Main_remake_3.png",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "link": "",
         "open_link": "_blank",
@@ -102,15 +104,15 @@
         "container": "container",
         "iframe": "",
         "show_map": true,
-        "contact_form_heading": "Get in Touch",
-        "contact_form_sub_heading": "<p>We'd love to hear from you about our entire service. Your comments and suggestions will be highly appreciated. Please complete the form below.</p>",
-        "contact_info_heading": "Here to Help",
-        "contact_info_sub_heading": "<p>Have a question? You may find an answer in our FAQs. But you can also contact us:</p>",
+        "contact_form_heading": "Leave your details, and we'll be in touch soon!",
+        "contact_form_sub_heading": "",
+        "contact_info_heading": "CONTACT US",
+        "contact_info_sub_heading": "<p>Feel Free to Contact Us</p>",
         "store_1": "Matcharu - United States",
-        "contact_info_content": "<p>68 St, South New York/NY 98944, United States. matcharu@gmail.comm</p><p>+222-1800-262</p><p>Opening Hours: Everyday 9:00 am - 6:00 pm</p>",
+        "contact_info_content": "<p>Harrison, NY 10528</p><p>Opening Hours: Everyday 9:00 am - 6:00 pm</p>",
         "store_2": "",
         "contact_info_content_2": "",
-        "store_3": "Umino - French",
+        "store_3": "",
         "contact_info_content_3": ""
       }
     }
