@@ -187,9 +187,9 @@
       "name": "Contact Form",
       "settings": {
         "container": "container-fluid px-0",
-        "banner_image": "shopify://shop_images/2023.-12.-12.-Tea00164_edited-1199x800.webp",
-        "contact_form_heading": "Get in Touch",
-        "contact_form_sub_heading": "<p>We'd love to hear from you about our entire service. Your comments and suggestions will be highly appreciated. Please complete the form below.</p>"
+        "banner_image": "shopify://shop_images/Before_1.png",
+        "contact_form_heading": "",
+        "contact_form_sub_heading": "<h5>For bulk orders or special requests, please don't hesitate to contact us for the best possible solutions<br/></h5>"
       }
     },
     "sub-collection": {
