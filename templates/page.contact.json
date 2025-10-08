@@ -57,7 +57,7 @@
           "settings": {
             "btn_content": "FAQs",
             "button_type": "primary",
-            "button_link": "",
+            "button_link": "shopify://pages/faqsfaq",
             "button_target": false,
             "b_mt": 0,
             "b_mb": 15
