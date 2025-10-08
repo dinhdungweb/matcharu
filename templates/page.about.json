@@ -228,7 +228,7 @@
         "template--16584037925111__de27bbae-8b57-4758-bfe7-5ac9b1179505-1665713233cd3512b4-1": {
           "type": "heading",
           "settings": {
-            "heading": "Our Unique Things",
+            "heading": "Our Service",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -586,7 +586,7 @@
         "d65af5ce-a91b-417d-a804-fb9b15019b29": {
           "type": "desc",
           "settings": {
-            "desc": "<p>How We Work</p>",
+            "desc": "<p>Why choose us?</p>",
             "desc_fs": 12,
             "desc_fw": "600",
             "content_width": 100,
@@ -598,7 +598,7 @@
         "template--21763387359529__b22a2023-fa5f-4a8e-b136-09a7d17cf092-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "More to Explore",
+            "heading": "Our Uniqueness",
             "heading_fs": 40,
             "heading_fw": "default",
             "heading_tf": "unset",
@@ -609,7 +609,7 @@
         "template--21763387359529__b22a2023-fa5f-4a8e-b136-09a7d17cf092-desc-1": {
           "type": "desc",
           "settings": {
-            "desc": "<p>At Umino, our work culture is deeply rooted in collaboration, innovation and passion. We believe that a positive and inclusive work environment is the foundation for creativity and success.</p>",
+            "desc": "<p>The unique qualities of our products set us apart from the competition.<br/><br/></p>",
             "desc_fs": 16,
             "desc_fw": "default",
             "content_width": 60,
@@ -642,13 +642,14 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/BULKBAG500g.png",
+            "image": "shopify://shop_images/Satoen_Matcha_Mild_Sweet_Taste_Ceremonial_Matcha_quality_0e491237-4392-461e-ab09-41a33c4ead22.png",
+            "image_mobile": "shopify://shop_images/Satoen_Matcha_Mild_Sweet_Taste_Ceremonial_Matcha_quality_0e491237-4392-461e-ab09-41a33c4ead22.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "Who We Are",
+            "subtext": "Near-Organic Environment",
             "title": "",
-            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.</p>",
+            "content": "<p>Carefully grown in a near-organic environment, using little to no chemical fertilizers to preserve the tea’s natural purity and flavor.<br/><br/></p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -658,13 +659,14 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/matcha-latte-o-dau-ngon-7.webp",
+            "image": "shopify://shop_images/Satoen_Matcha_is_sweet_and_has_a_mild_taste_full_of_nutrients.png",
+            "image_mobile": "shopify://shop_images/Satoen_Matcha_is_sweet_and_has_a_mild_taste_full_of_nutrients.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "Our Products",
+            "subtext": "Nutrient -Dense",
             "title": "",
-            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.</p>",
+            "content": "<p>Our nutrient-dense technique boosts the nutrition in our tea leaves, leading to a superior and more flavorful tea<br/><br/></p>",
             "btn_content": "",
             "button_type": "primary"
           }
@@ -674,13 +676,14 @@
           "settings": {
             "banner_width": "4",
             "banner_type": "image",
-            "image": "shopify://shop_images/Matcha-Iced-Latte_ig.jpg",
+            "image": "shopify://shop_images/Untitled_design_16.png",
+            "image_mobile": "shopify://shop_images/Untitled_design_16.png",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "link": "",
             "open_link": "_blank",
-            "subtext": "Our Careers",
+            "subtext": "Shade - Grown",
             "title": "",
-            "content": "<p>Adipisicing elit sed do eiusmod tempor labore et dolore dignissimos cumque. Excepteur sint occaecat cupidatat proident.</p>",
+            "content": "<p>Our shade-grown matcha is cultivated using a precise shading method for 20-25 days, allowing the tea plants to develop their signature beautiful green leaves and a rich, delicate flavor that sets our matcha apart.<br/><br/></p>",
             "btn_content": "",
             "button_type": "primary"
           }
