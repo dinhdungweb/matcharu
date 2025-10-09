@@ -470,7 +470,7 @@
               "button_title": "",
               "banner_link": "https://matcharu.com/blogs/recipes/tagged/hot-drinks",
               "open_link": false,
-              "overlap_top": true,
+              "overlap_top": false,
               "space_banner": 0,
               "col": "3"
             }
@@ -487,7 +487,7 @@
               "button_title": "",
               "banner_link": "https://matcharu.com/blogs/recipes/tagged/culinary-baking",
               "open_link": false,
-              "overlap_top": true,
+              "overlap_top": false,
               "space_banner": 0,
               "col": "3"
             }
