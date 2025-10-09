@@ -438,7 +438,7 @@
               "open_link": false,
               "overlap_top": false,
               "space_banner": 0,
-              "col": "4"
+              "col": "3"
             }
           },
           "banner_V9JrQm": {
@@ -455,7 +455,7 @@
               "open_link": false,
               "overlap_top": false,
               "space_banner": 0,
-              "col": "4"
+              "col": "3"
             }
           },
           "banner_WqHW9P": {
@@ -472,7 +472,7 @@
               "open_link": false,
               "overlap_top": false,
               "space_banner": 0,
-              "col": "4"
+              "col": "3"
             }
           },
           "banner_4NanRF": {
@@ -480,16 +480,16 @@
             "settings": {
               "title": "Culinary & Baking",
               "description": "",
-              "heading_text_align": "text-left",
-              "column_reverse": false,
-              "box_shadow": false,
+              "heading_text_align": "desktop-text-center",
+              "column_reverse": true,
+              "box_shadow": true,
               "image": "shopify://shop_images/Menu.png",
               "button_title": "",
               "banner_link": "https://matcharu.com/blogs/recipes/tagged/culinary-baking",
               "open_link": false,
-              "overlap_top": false,
+              "overlap_top": true,
               "space_banner": 0,
-              "col": "4"
+              "col": "3"
             }
           },
           "single_link_yh3fDr": {
