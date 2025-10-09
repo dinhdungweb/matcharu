@@ -420,9 +420,9 @@
               "open_link": false,
               "label": "",
               "icon_font": "",
-              "icon_width_image": 20,
+              "icon_width_image": 30,
               "width": "custom",
-              "custom_width": 750
+              "custom_width": 1200
             }
           },
           "banner_466hDp": {
@@ -439,7 +439,7 @@
               "open_link": false,
               "overlap_top": false,
               "space_banner": 0,
-              "col": "2"
+              "col": "2-5"
             }
           },
           "banner_V9JrQm": {
