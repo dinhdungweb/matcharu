@@ -428,7 +428,7 @@
           "banner_466hDp": {
             "type": "banner",
             "settings": {
-              "title": "All Recipes",
+              "title": "",
               "description": "",
               "heading_text_align": "desktop-text-center",
               "column_reverse": true,
@@ -462,7 +462,7 @@
           "banner_WqHW9P": {
             "type": "banner",
             "settings": {
-              "title": "Hot Drinks",
+              "title": "",
               "description": "",
               "heading_text_align": "desktop-text-center",
               "column_reverse": true,
@@ -479,7 +479,7 @@
           "banner_4NanRF": {
             "type": "banner",
             "settings": {
-              "title": "Culinary & Baking",
+              "title": "",
               "description": "",
               "heading_text_align": "desktop-text-center",
               "column_reverse": true,
