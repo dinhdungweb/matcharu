@@ -461,7 +461,7 @@
           "banner_WqHW9P": {
             "type": "banner",
             "settings": {
-              "title": "Iced Drinks",
+              "title": "Hot Drinks",
               "description": "",
               "heading_text_align": "desktop-text-center",
               "column_reverse": true,
@@ -482,7 +482,7 @@
               "description": "",
               "heading_text_align": "desktop-text-center",
               "column_reverse": true,
-              "box_shadow": true,
+              "box_shadow": false,
               "image": "shopify://shop_images/Menu.png",
               "button_title": "",
               "banner_link": "https://matcharu.com/blogs/recipes/tagged/culinary-baking",
