@@ -429,7 +429,7 @@
             "settings": {
               "title": "All Recipes",
               "description": "",
-              "heading_text_align": "text-left",
+              "heading_text_align": "desktop-text-center",
               "column_reverse": true,
               "box_shadow": true,
               "image": "shopify://shop_images/Gemini_Generated_Image_cxjoxpcxjoxpcxjo.png",
