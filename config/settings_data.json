@@ -414,7 +414,7 @@
           "menu_item_8eE8kh": {
             "type": "menu_item",
             "settings": {
-              "title": "Recipes",
+              "title": "RECIPES",
               "url": "",
               "open_link": false,
               "label": "",
@@ -475,6 +475,23 @@
               "col": "4"
             }
           },
+          "banner_4NanRF": {
+            "type": "banner",
+            "settings": {
+              "title": "Iced Drinks",
+              "description": "",
+              "heading_text_align": "text-left",
+              "column_reverse": false,
+              "box_shadow": false,
+              "image": "shopify://shop_images/Menu.png",
+              "button_title": "",
+              "banner_link": "https://matcharu.com/blogs/recipes/tagged/hot-drinks",
+              "open_link": false,
+              "overlap_top": false,
+              "space_banner": 0,
+              "col": "4"
+            }
+          },
           "single_link_yh3fDr": {
             "type": "single_link",
             "settings": {
@@ -507,6 +524,7 @@
           "banner_466hDp",
           "banner_V9JrQm",
           "banner_WqHW9P",
+          "banner_4NanRF",
           "single_link_yh3fDr",
           "1847da8e-da3e-4aff-985f-ae488e809691"
         ],
