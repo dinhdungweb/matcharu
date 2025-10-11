@@ -294,7 +294,7 @@
           "1c680512-e088-43cf-8fee-827076f99874": {
             "type": "announcement",
             "settings": {
-              "text": "<p>Join our mailing list for special deals and expert insights on Matcha.<br/><br/></p>",
+              "text": "<p>Join our mailing list for special deals and expert insights on Matcha.</p>",
               "countdown_deadline": ""
             }
           },
