@@ -1358,7 +1358,7 @@
       ":root {--jdgm-star-color: #ffb800;}",
       "body .jdgm-histogram .jdgm-star {color: #ffb800 !important;}",
       "@media (min-width: 992px) {.design-1:not(.more-categories) .bls__collection-infor:not(.show-count) .bls__collection-title, .bls__collection-packery .bls__collection-infor:not(.show-count) .bls__collection-title, .bls__collection-packery .bls__collection-infor.show-count {--btn-padding: 1.5rem 4.25rem; }}",
-      "body.template-index {background-color: #f1f3f7;}",
+      "body.template-index {background-color: #f8f5f0;}",
       ".template-index .bls__grid .bls__product-item {background-color: var(--color-white); border-radius: var(--product-images-style-radius) !important; overflow: hidden;}",
       ".template-index .bls__grid .bls__product-item .bls__product-details {padding: 20px;}",
       ".template-index.product-images-style-radius .bls__product-img,.template-index.product-images-style-radius .bls__product-item .bls__product-img > a,.product-images-style-radius .banner-link,.product-images-style-radius .bls__compare-colors-list .image,.product-images-style-radius .product-bought-image-item .main-image,.product-images-style-radius .bls_vertical_menu .hover-effect,.product-images-style-radius .bls_main_menu .hover-effect,.product-images-style-radius .bls__product-item .bls__responsive-image,.product-images-style-radius .bls__product-item .bls__product-img > a {border-bottom-right-radius: 0; border-bottom-left-radius: 0;}",
